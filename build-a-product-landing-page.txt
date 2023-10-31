@@ -1,0 +1,237 @@
+** start of undefined **
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title></title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+     <header id="header">
+       <img id="header-img"
+        src="https://t3.ftcdn.net/jpg/03/20/65/90/360_F_320659094_phaHFoDyq53c81lY0S2YWlt85NaYJVqy.jpg"
+            alt="freecodecamp logo"
+            loading="lazy"
+            class="header-img"
+            >
+       </img>
+        <h1>Original Trombones</h1>
+       <nav id="nav-bar">
+         <ul>
+           <li ><a class="nav-link" href="#header">Features</a></li>
+           <li ><a class="nav-link" href="#body">How it Works</a></li>
+           <li ><a class="nav-link" href="#footer">Pricing</a>
+           </li> 
+          </ul>
+       </nav>  
+     </header>
+     <section role="region" aria-labelledby="info"> 
+     <h2 id="info">Handcrafted, home-made masterpieces</h2>
+     <form id="form" method="post" action="https://www.freecodecamp.com/email-submit"> 
+       <div class="info">
+            <label for="email-address">Email:</label>
+            <input type="email" name="email" id="email" placeholder="Enter Your Email Address"/>
+          </div>
+          <input id="submit" type="submit"></input>
+     </form>
+     </section>  
+     
+    </section>  
+    <section id="body" role="region" aria-labelledby="Features">
+  <fieldset>
+    <image id="Features-Pics" src="https://media.istockphoto.com/id/1323529010/vector/fire-vector-isolated.jpg?s=612x612&w=0&k=20&c=ta6bKkXZDuqy2H3tRhR79sSl_-fdGhKyoenbbjEr3l0=">
+      <p>Our trombones use the shiniest brass which is sourced locally. This will increase the longevity of your purchase.</p>
+      <legend>Premium Materials</legend>
+  </fieldset>
+  <fieldset>
+    <image id="Features-Pics" src="https://media.istockphoto.com/id/1390768356/vector/fast-delivery-truck-icon-fast-shipping-design-for-website-and-mobile-apps-vector-illustration.jpg?s=612x612&w=0&k=20&c=Prj0I-bjq31gfCyecjoXR4w7jz8sX8ch4gwhKilgq5U=">
+    <p>We make sure you receive your trombone as soon as we have finished making it. We also provide free returns if you are not satisfied.</p>
+    <legend>Fast Shipping</legend>
+    </fieldset>
+    <fieldset>
+    <image id="Features-Pics" src="https://png.pngtree.com/png-clipart/20210311/original/pngtree-full-state-battery-png-image_6045348.jpg">
+      <p>For every purchase you make, we will ensure there are no damages or faults and we will check and test the pitch of your instrument.</p>
+      <legend>Quality Assurance</legend>
+  </fieldset>
+    </section>
+    <section>  
+      <iframe id="video" width="auto" height="auto" src="https://www.youtube.com/embed/y8Yv4pnO7qc" title="Roman Carnival Overture Op. 9 for Five Trombones" frameborder="10" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+      </section>
+      <div id="container">
+  <div class="col1">
+    <fieldset>
+    <h3>TENOR TROMBONE</h3>
+    <p>$600
+Lorem ipsum.
+Lorem ipsum.
+Lorem ipsum dolor.
+Lorem ipsum.</p>
+<button type="select">Select</button>
+</fieldset>      
+        </div>
+        <div class="col2">
+    <fieldset>
+    <h3>BASS TROMBONE</h3>
+    <p>$900
+Lorem ipsum.
+Lorem ipsum.
+Lorem ipsum dolor.
+Lorem ipsum.</p>
+<button type="select">Select</button>
+</fieldset>      
+        </div>
+        <div class="col3">
+    <fieldset>
+    <h3>VALVE TROMBONE</h3>
+    <p>$1200
+Lorem ipsum.
+Lorem ipsum.
+Lorem ipsum dolor.
+Lorem ipsum.</p>
+<button type="select">Select</button>
+</fieldset>      
+        </div>
+  </main>  
+</body>
+<footer id="footer">
+  <address>
+       <nav id="footer-bar">
+         <ul>
+           <li class="footer-link"><a href="#info">Privacy</a></li>
+           <li class="footer-link"><a href="#info">Terms</a></li>
+           <li class="footer-link"><a href="#info">Contact</a>
+<p>Copyright 2016, Original Trombones</p>           
+           </li> 
+         </ul> 
+       </nav>  
+      </address>
+  </footer> 
+</html>
+
+** end of undefined **
+
+** start of undefined **
+
+@media (prefers-reduced-motion: no-preference) {
+  * {
+    scroll-behavior: smooth;
+  }
+}
+body {
+  background: #f5f6f7;
+  color: #1b1b32;
+  font-family: Helvetica;
+  margin: 0;
+  text-align: center;
+}
+#header-img {
+width: max(100px, 18vw);
+  background-color: #0a0a23;
+  aspect-ratio: 35 / 10;
+  padding: 0.4rem;
+}
+header {
+  width: 100%;
+  height: 50px;
+  background-color: #1b1b32;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  top: 0;
+}
+nav {
+  width: 50%;
+  max-width: 300px;
+  height: 50px;
+}
+
+nav > ul {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  align-items: center;
+  padding-inline-start: 0;
+  margin-block: 0;
+  height: 100%;
+}
+
+nav > ul > li {
+  color: #dfdfe2;
+  margin: 0 0.2rem;
+  padding: 0.2rem;
+  display: inline;
+}
+
+nav > ul > li:hover {
+  background-color: #dfdfe2;
+  color: #1b1b32;
+  cursor: pointer;
+  
+}
+
+li > a {
+  color: inherit;
+  text-decoration: none;
+
+}
+h1 {
+  color: #f1be32;
+  font-size: min(5vw, 1.2em);
+  text-align: center;
+  margin: 10px;
+}
+
+label {
+  margin: auto;
+  padding: 10px;
+}
+
+h2 {
+  border-bottom: 4px solid #dfdfe2;
+  margin-top: 0px;
+  padding-top: 60px;
+  text-align: center;
+}
+#Features-Pics {
+  width: 50px;
+  text-align: left;
+}
+#container {
+  width: 900px;
+  margin: 0 auto;
+}
+.col1, .col2, .col3 {
+  width: 200px;
+  float: left;
+  margin: 10px;
+  padding-bottom: 10px;
+}
+button {
+  background-color: yellow;
+}
+footer {
+  width: 100%;
+  height: 100px;
+  background-color: #e0e0e0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: flex;
+  bottom: 0;
+  padding-top: 0;
+  font: blue;
+}
+address {
+  text-align: center;
+  position: center;
+}
+.footer-link {
+  color: black;
+  font-style: italic;
+}
+
+** end of undefined **
+
