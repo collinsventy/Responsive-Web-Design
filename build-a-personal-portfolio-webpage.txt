@@ -1,0 +1,328 @@
+** start of undefined **
+
+<!DOCTYPE html>
+<html lang="en">
+<head>  
+<meta charset="UTF-8">
+<link rel="stylesheet" href="./styles.css" />
+<script src="https://kit.fontawesome.com/a74d36f3a7.js" crossorigin="anonymous"></script>
+
+    <title>Welcome</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+</head>
+<body>
+   <nav class="navbar" id="navbar">
+     <input type="checkbox" id="check">
+     <label for="check" class="checkbtn">
+       <i class="fas fa-bars"></i>
+     </label>
+     <label class="logo">Collin Sventy</label>
+      <ul>
+        <li><a class="active" href="#Home">Home</a></li>
+        <li><a href="#About">About</a></li>
+        <li><a href="#Work">Work</a></li>
+        <li><a href="#Contact">Contact</a></li>
+        </ul>
+    </nav>
+   
+<div id="container">
+<section id="welcome-section" class="col1">
+  <h1>Hello, I am Collin</h1>
+  <p>a web developer</p>
+</div>
+</section> 
+<div class="col2" id="projects">
+  <h1 class="projects-section-header">These are some of my projects...</h1>
+  <a href="https://codepen.io/Collin-Sventy/pen/gOqMrYY" target="_blank" class="project project-tile">
+          <img class="project-image" src="https://cdn.freecodecamp.org/testable-projects-fcc/images/tribute.jpg" alt="project">
+          <p class="project-title">
+            <span class="code"></span>
+            Tribute Page
+            <span class="code"></span>
+          </p>
+        </a>
+<a href="https://codepen.io/Collin-Sventy/pen/mdvEPXe" target="_blank" class="project project-tile">
+          <img class="project-image" src="https://global.discourse-cdn.com/freecodecamp/optimized/4X/c/e/d/cedbca0b486f8928cce726c4335dcde77f3f6b0a_2_690x308.jpeg" alt="project">
+          <p class="project-title">
+            <span class="code"></span>
+            Survey
+            <span class="code"></span>
+          </p>
+        </a>      
+  <p></p>
+
+  <a href="https://codepen.io/Collin-Sventy/pen/QWYEGbG" target="_blank" class="project project-tile">
+          <img class="project-image" src="https://global.discourse-cdn.com/freecodecamp/original/4X/7/a/4/7a459e1f097d2ab71ea3bbec870b0b4179c39636.png" alt="project">
+          <p class="project-title">
+            <span class="code"></span>
+            Technical Documentation Page
+            <span class="code"></span>
+          </p>
+        </a>
+
+<a href="https://codepen.io/Collin-Sventy/pen/QWYEGbG" target="_blank" class="project project-tile">
+          <img class="project-image" src="https://global.discourse-cdn.com/freecodecamp/original/3X/7/d/7dbd70f4e6302bee912e098683976687a844ac58.png" alt="project">
+          <p class="project-title">
+            <span class="code"></span>
+            Technical Documentation Page
+            <span class="code"></span>
+          </p>
+        </a>
+
+  <h3></h3> 
+   
+  <a id="profile-link" href="https://github.com/collinsventy/Responsive-Web-Design.git" class="btn btn-show-all" target="_blank">Show all</a>
+</div>
+<div class="col3">
+  <h1 class="together">Let's work together...</h1>
+  <p>How do you take your coffee?
+
+<div class="social-icons">
+          <a href="https://www.facebook.com/freecodecamp/">
+            <i class="fab fa-facebook-f"></i>
+          </a>
+          <a href="https://twitter.com/freecodecamp/">
+            <i class="fab fa-twitter"></i>
+          </a>
+          <a href="https://instagram.com/freecodecamp">
+            <i class="fab fa-instagram"></i>
+          </a>
+          <a href="https://www.linkedin.com/school/free-code-camp/">
+            <i class="fab fa-linkedin-in"></i>
+          </a>
+          <a href="https://www.youtube.com/freecodecamp">
+            <i class="fab fa-youtube"></i>
+          </a>
+        </div>
+
+</p>
+</div>      
+</div>      
+
+
+<footer>
+<section id="footer">
+<link id="profile-link">
+<a href="https://www.freecodecamp.org/fccccfc4e29-19e8-43d3-a4bd-45cc8731d30b"></a>
+</link>
+</section>  
+</footer>                  
+</html>  
+
+** end of undefined **
+
+** start of undefined **
+
+@media (prefers-reduced-motion: no-preference) {
+  * {
+    scroll-behavior: smooth;
+  }
+}
+
+a {
+  display: block;
+  padding: 8px;
+}
+
+nav {
+  background: #17496c;
+  height: 100px;
+}
+
+nav ul {
+  float: right;
+  margin-right: 20px;
+}
+
+nav ul li {
+  display: inline-block;
+  line-height: 80px;
+  margin: 0 5px;
+}
+nav ul li a{
+  color: white;
+  font-size: 17px;
+  text-transform: uppercase;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+}
+
+body {
+font-family: "Helvetica", san-serif;
+}
+
+label.logo{
+color: white;
+font-size: 35px;
+line-height: 100px;
+padding: 0 100px;
+font-weight: bold;
+}
+
+a.active,a:hover{
+  background: #2b6a97;
+  transition: .5s;
+}
+v ul li a{
+  color: white;
+  font-size: 17px;
+  padding: 7px 13px;
+  border-radius: 3px;
+}
+
+.checkbtn{
+ font-size: 30px;
+ color:white;
+ float: right;
+ line-height: 80px; 
+ margin-right: 40px;
+ cursor: pointer;
+ display: none;
+}
+
+#check{
+display: none;
+}
+
+@media (max-width: 952px){
+  label.logo{
+    font-size: 30px;
+    padding-left: 50px;
+  }
+  nav ul li a{
+    font-size: 16px;
+  }
+}
+@media (max-width: 858px){
+  .checkbtn{
+    display: block;
+  }
+  ul{
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    background: #4d85ad;
+    top: 80px;
+    left: -100%;
+    text-align: center;
+    transition: all .5s;
+  }
+  nav ul li{
+    display: block;
+    margin: 50px 0;
+    line-height: 30px;
+  }
+  nav ul li a{
+    font-size: 20px;
+  }
+  a:hover,a.active{
+    background: none;
+    color: #b3cbdc;
+  }
+  #check:checked ~ ul{
+    left: 0;
+  }
+}
+
+#container{
+  width: auto;
+  margin: 0 auto;
+}
+/*.col1, .col2, .col3 {
+ width: 280px;
+ float: none; 
+}*/
+.col1{
+  background-color: #2b6a97;
+  width: auto;
+  /*height: 100%;*/
+   min-height: 100vh; /* makes first div as height as the "screen" (viewport) */
+  display: flex; /* to align text vertically and horizontally */
+  flex-direction: column; /* to have the h6 text below the h1 text (normal block-level-element behavior) */
+  justify-content: center; /* centers along main axis (vertically) */
+  align-items: center; /* centers along side axis (horizontally */
+}
+
+.col3{
+  background-color: #779fba;
+  width: auto;
+  height: 25%;
+}
+
+h1{
+  position: relative;
+  justify-content: center;
+  color: white;
+}
+p{
+  text-align: center;
+  justify-content: center;
+  color: white;
+}
+.projects-section-header{
+  text-align: center;
+  padding: 20px;
+}
+.project-title {
+    font-size: 2rem;
+    padding: 2rem 0.5rem;
+}
+
+.col2 {
+  background-color: #4d85ad;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 20px 10px;
+}
+
+.project img {
+  width: 50rw;
+  max-width: 350px;
+  height: 50rh;
+  object-fit: cover;
+  border-radius: 10px;
+  justify-content: center;
+}
+
+.btn-show-all {
+    font-size: 2rem;
+    background: white;
+    transition: background 0.3s ease-out;
+}
+
+btn {
+    display: inline-block;
+    padding: 1rem 2rem;
+    border-radius: 2px;
+    justify-content: center;
+  text-align: center;
+}
+
+.social-icons {
+  display: grid;
+  font-size: 3rem;
+  grid-template-columns: repeat(5, 1fr);
+  grid-auto-flow: column;
+  grid-auto-columns: 1fr;
+  align-items: center;
+}
+
+header {
+  position: fixed;
+  top: 0;
+}
+
+** end of undefined **
+
